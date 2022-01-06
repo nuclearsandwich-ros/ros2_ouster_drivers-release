@@ -1,0 +1,12 @@
+Source: ros-rolling-ros2-ouster
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <stevenmacenski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-apps1.11, libpcl-common1.11, libpcl-features1.11, libpcl-filters1.11, libpcl-io1.11, libpcl-kdtree1.11, libpcl-keypoints1.11, libpcl-ml1.11, libpcl-octree1.11, libpcl-outofcore1.11, libpcl-people1.11, libpcl-recognition1.11, libpcl-registration1.11, libpcl-sample-consensus1.11, libpcl-search1.11, libpcl-segmentation1.11, libpcl-stereo1.11, libpcl-surface1.11, libpcl-tracking1.11, libpcl-visualization1.11, ros-rolling-ament-cmake, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-ouster-msgs, ros-rolling-pcl-conversions, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclcpp-lifecycle, ros-rolling-sensor-msgs, ros-rolling-std-srvs, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ros2-ouster
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.11, libpcl-common1.11, libpcl-features1.11, libpcl-filters1.11, libpcl-io1.11, libpcl-kdtree1.11, libpcl-keypoints1.11, libpcl-ml1.11, libpcl-octree1.11, libpcl-outofcore1.11, libpcl-people1.11, libpcl-recognition1.11, libpcl-registration1.11, libpcl-sample-consensus1.11, libpcl-search1.11, libpcl-segmentation1.11, libpcl-stereo1.11, libpcl-surface1.11, libpcl-tracking1.11, libpcl-visualization1.11, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-launch, ros-rolling-launch-ros, ros-rolling-ouster-msgs, ros-rolling-pcl-conversions, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclcpp-lifecycle, ros-rolling-sensor-msgs, ros-rolling-std-srvs, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: ROS2 Drivers for the Ouster OS-1 Lidar
