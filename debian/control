@@ -1,0 +1,12 @@
+Source: ros-humble-ros2-ouster
+Section: misc
+Priority: optional
+Maintainer: Steve Macenski <stevenmacenski@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-apps1.11, libpcl-common1.11, libpcl-features1.11, libpcl-filters1.11, libpcl-io1.11, libpcl-kdtree1.11, libpcl-keypoints1.11, libpcl-ml1.11, libpcl-octree1.11, libpcl-outofcore1.11, libpcl-people1.11, libpcl-recognition1.11, libpcl-registration1.11, libpcl-sample-consensus1.11, libpcl-search1.11, libpcl-segmentation1.11, libpcl-stereo1.11, libpcl-surface1.11, libpcl-tracking1.11, libpcl-visualization1.11, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-launch, ros-humble-launch-ros, ros-humble-ouster-msgs, ros-humble-pcl-conversions, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-ros2-ouster
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.11, libpcl-common1.11, libpcl-features1.11, libpcl-filters1.11, libpcl-io1.11, libpcl-kdtree1.11, libpcl-keypoints1.11, libpcl-ml1.11, libpcl-octree1.11, libpcl-outofcore1.11, libpcl-people1.11, libpcl-recognition1.11, libpcl-registration1.11, libpcl-sample-consensus1.11, libpcl-search1.11, libpcl-segmentation1.11, libpcl-stereo1.11, libpcl-surface1.11, libpcl-tracking1.11, libpcl-visualization1.11, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-launch, ros-humble-launch-ros, ros-humble-ouster-msgs, ros-humble-pcl-conversions, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclcpp-lifecycle, ros-humble-sensor-msgs, ros-humble-std-srvs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: ROS2 Drivers for the Ouster OS-1 Lidar
